@@ -4,6 +4,13 @@
     margin: 0;
 }
 
+/* HEADER SECTION */
+
+#title {
+    display: flex;
+    justify-content: center;
+}
+
 .grid {
     height: 24px;
     width: 24px;
@@ -15,4 +22,9 @@
     padding: 8px;
     display: grid;
     grid-template-columns: repeat(16, 1fr);
+}
+
+main {
+    display: flex;
+    justify-content: center;
 }
