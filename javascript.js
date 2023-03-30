@@ -20,9 +20,9 @@ for (const color of newColor) {
 
 // Button to change grid size
 
-const btn = document.querySelector('.button');
+const btn_grid_changer = document.querySelector('.button_grid_changer');
 
-btn.addEventListener('click', () => {
+btn_grid_changer.addEventListener('click', () => {
     let user_input = prompt("Change the size of your grid");
     if (user_input <= 0 || user_input > 100) {
         window.alert('Maximum input is 100')
@@ -45,6 +45,8 @@ btn.addEventListener('click', () => {
             })
         }
     }
-
-    
 })
+
+// Button shading rainbow
+
+const btn_raibow = document.querySelector('.button_rainbow');
