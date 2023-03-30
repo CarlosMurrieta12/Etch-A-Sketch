@@ -12,13 +12,14 @@
 }
 
 .grid {
-    height: 24px;
-    width: 24px;
     border: solid thin darkgrey;
 }
 
 .container {
-    max-width: fit-content;
+    min-width: 960px;
+    max-width: 960px;
+    min-height: 960px;;
+    max-height: 960px;
     padding: 8px;
     display: grid;
     grid-template-columns: repeat(16, 1fr);
@@ -27,4 +28,16 @@
 main {
     display: flex;
     justify-content: center;
+}
+
+/* GRID BUTTON */
+
+.button_container {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+
+.button {
+    padding: 8px;
 }
